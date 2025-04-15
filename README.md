@@ -36,7 +36,8 @@ This project developed an interactive energy dashboard to visualise and analyse 
 
 ## Project Structure
 
-EnergyDashboard/
+```
+Real-Estate-Energy-Performance-Dashboard/
 ├── data/
 │   ├── raw_data/                  # Original development plans (e.g., images)
 │   └── processed_data/            # Cleaned and transformed data ready for Tableau
@@ -53,3 +54,4 @@ EnergyDashboard/
 │   ├── data_dictionary.md
 │   └── dummy_data_generation_methodology.md
 └── README.md                      # This file
+```
