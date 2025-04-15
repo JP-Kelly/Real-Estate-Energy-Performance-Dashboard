@@ -7,6 +7,8 @@ This project developed a prototype energy dashboard using **Tableau** to visuali
 
 This project developed an interactive energy dashboard to visualise and analyse energy consumption data for a real estate investment company's property portfolio. Due to the developmental stage of the properties, R was used to generate dummy data for the project. Python was used to detect and log co-ordinates of properties using the Computer Vision library. The prototype dashboard aims to provide actionable insights into potential energy usage patterns, identify areas for energy efficiency improvements, and support informed decision-making regarding energy management.
 
+You can view the interactive version on [Tableau](https://public.tableau.com/app/profile/jp.kelly8457/viz/AEPGDevelopment/AEGPStory).
+
 ## Key Technologies
 
 * **Python:** Used for scripting and mapping property coordinates based on development plans.
