@@ -35,6 +35,7 @@ This project developed an interactive energy dashboard to visualise and analyse 
         * Filtering and drill-down capabilities to explore data in detail.
 
 ## Project Structure
+These pages are still under construction.
 
 ```
 Real-Estate-Energy-Performance-Dashboard/
