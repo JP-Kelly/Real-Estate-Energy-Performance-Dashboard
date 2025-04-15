@@ -25,10 +25,10 @@ This project developed an interactive energy dashboard to visualise and analyse 
     * This involved image processing techniques and geometric calculations to accurately locate and size properties.
     * The output was a dataset containing property IDs, coordinates (x, y), and sizes, which was then integrated with the generated energy consumption data.
 
-3.  **Data Analysis and Visualization (R & Tableau):**
+3.  **Data Analysis and Visualisation (R & Tableau):**
     * R was used to perform exploratory data analysis on the dummy data, identify potential trends, and calculate relevant energy performance indicators.
     * Tableau was employed to design and develop the interactive dashboard.
-    * The dashboard features visualizations such as:
+    * The dashboard features visualisations such as:
         * Interactive maps showing property locations and estimated energy consumption.
         * Charts displaying estimated energy consumption by property type, location, and time period.
         * Heatmaps comparing property energy use for different energy solutions (standard central heating vs infrared heating).
