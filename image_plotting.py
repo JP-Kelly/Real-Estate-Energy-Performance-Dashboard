@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # Load the image
-image = cv2.imread("/Users/uawf001/Dropbox (Personal)/Data Viz Projects/AEPG Development/Map for Viz/Masked Map.png")  # Replace with your image path
+image = cv2.imread("image path goes here")  # Replace with your image path
 
 # Convert to grayscale to focus on intensity
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -32,7 +32,7 @@ for contour in contours:
             cx = int(M["m10"] / M["m00"])
             cy = int(M["m01"] / M["m00"])
 
-            # Rotate the coordinates by 90 degrees clockwise
+            # Rotate the coordinates by 90 degrees clockwise to ensure compatability when image is brought into Tableau
             rotated_x = image.shape[1] - cy
             rotated_y = cx
 
@@ -49,6 +49,6 @@ for contour in contours:
 
 # Save the coordinates to a CSV file
 houses_df = pd.DataFrame(house_coordinates, columns=["x", "y", "size", "property_id"])
-houses_df.to_csv("detected_houses_coordinates_masked.csv", index=False)
+houses_df.to_csv("detected_houses_coordinates.csv", index=False)
 
 print("House coordinates saved to detected_houses_coordinates_masked.csv")
