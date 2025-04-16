@@ -32,7 +32,7 @@ You can view the interactive version on [Tableau](https://public.tableau.com/app
         * Filtering and drill-down capabilities to explore data in detail.
 
 
-# Sample Dashboard
+## Sample Dashboard
 
 ![Energy Usage](https://github.com/user-attachments/assets/8d4f0795-97fa-4be8-9e97-b92cce59b9bd)
 Heatmap comparing property portfolio using two different energy solutions
