@@ -34,7 +34,7 @@ You can view the interactive version on [Tableau](https://public.tableau.com/app
 
 ## Sample Dashboard
 
-![Energy Usage LR](https://github.com/user-attachments/assets/05445f9b-4536-4a69-8803-9f68087b19ce)
+![Energy Usage LR](https://github.com/user-attachments/assets/51a86931-91f6-4baf-acf5-047a2005e726)
 Heatmap comparing property portfolio using two different energy solutions
 
 ## Project Structure
