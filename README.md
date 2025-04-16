@@ -16,24 +16,26 @@ You can view the interactive version on [Tableau](https://public.tableau.com/app
 
 ## Project Overview
 
-1.  **Data Acquisition/Generation and Preparation:**
-    * Since real-world energy consumption data was not yet available, Python scripts werre used to generate dummy data based on estimated energy usage patterns and property characteristics (one for daily usage, one for hourly).
-    * Python scripts were developed to process property location data, extracting coordinates and sizes from development plans.
-    * Python was used to clean, transform, and aggregate both the dummy energy data and the property data, ensuring data quality and consistency.
+## Project Overview
 
-2.  **Coordinate Mapping (Python):**
-    * Python was used to automate the process of extracting property coordinates from image-based development plans.
-    * This involved image processing techniques and geometric calculations to accurately locate and size properties.
-    * The output was a dataset containing property IDs, coordinates (x, y), and sizes, which was then integrated with the generated energy consumption data.
+1.  **Data Generation, Acquisition, and Preparation:**
+    * Since real-world energy consumption data was not yet available, Python scripts were used to generate dummy data (both daily and hourly) based on estimated energy usage patterns and property characteristics. These can be found in the [scripts folder](https://github.com/JP-Kelly/Real-Estate-Energy-Performance-Dashboard/tree/main/scripts).
+    * A Python script was also developed to process property location data from image-based development plans. This involved extracting property coordinates and sizes using image processing techniques and geometric calculations. This can also be found in the [scripts folder](https://github.com/JP-Kelly/Real-Estate-Energy-Performance-Dashboard/tree/main/scripts).
+    * Python was used to clean, transform, and aggregate both the generated energy data and the property data, ensuring data quality and consistency.
 
-3.  **Data Analysis and Visualisation (Tableau):**
+2.  **Data Analysis and Visualization (Tableau):**
     * Tableau was used to perform exploratory data analysis on the dummy data, identify potential trends, and calculate relevant energy performance indicators.
-    * Tableau was employed to design and develop the interactive dashboard.
-    * The dashboard features visualisations such as:
+    * Tableau was employed to design and develop the interactive dashboard, featuring visualizations such as:
         * Interactive maps showing property locations and estimated energy consumption.
         * Charts displaying estimated energy consumption by property type, location, and time period.
-        * Heatmaps comparing property energy use for different energy solutions (standard central heating vs infrared heating).
+        * Heatmaps comparing property energy use for different energy solutions (standard central heating vs. infrared heating).
         * Filtering and drill-down capabilities to explore data in detail.
+
+<details>
+<summary>Sample of project dashboards (click to expand / collapse)</summary>
+<br></br>
+![image](https://github.com/user-attachments/assets/74b77939-5a61-4741-acc0-ac34e4891f2d)
+</details>
 
 ## Project Structure
 Some pages are still under construction.
