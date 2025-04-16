@@ -1,3 +1,5 @@
+# Creates a dummy daily energy dataset for all properties 
+
 import pandas as pd
 import numpy as np
 from datetime import date, timedelta
